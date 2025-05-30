@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trator Agrícola - Agrinho</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #2e8b57;
+        }
+        #canvas-container {
+            margin: 20px auto;
+            border: 2px solid #2e8b57;
+            border-radius: 8px;
+            max-width: 800px;
+        }
+        .controls {
+            margin: 20px;
+        }
+        button {
+            background-color: #3cb371;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        p {
+            color: #555;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trator Agrícola - Projeto Agrinho</h1>
+    <div id="canvas-container"></div>
+    <div class="controls">
+        <button id="start-btn">Iniciar</button>
+        <button id="stop-btn">Parar</button>
+    </div>
+    <p>Este projeto demonstra um trator agrícola em movimento, mostrando a importância da mecanização no campo para o plantio e colheita.</p>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
